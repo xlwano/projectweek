@@ -21,7 +21,11 @@ header {
     background-color: #98d3ea;
     justify-content: space-between;
     position: fixed;
+<<<<<<< Updated upstream
     margin-bottom:120px;
+=======
+
+>>>>>>> Stashed changes
 }
 
 
@@ -170,6 +174,7 @@ footer {
     cursor: pointer;
 }
 
+<<<<<<< Updated upstream
 .tekst-leer-box {
     display: flex;
     flex-direction: column;
@@ -179,4 +184,36 @@ footer {
     align-content: flex-start;
     border: solid green;
     border-radius: 5px;
+=======
+form {
+  display: flex;
+  width: 300px;
+  border-radius: 5px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+input[type="search"] {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  font-size: 16px;
+}
+
+.searchbutton {
+  background-color: #6e6eb4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.searchbutton:hover {
+  background-color: #3f2e56;
+}
+
+.searchbar {
+  margin-left: 20px;
+  margin-top: 40px;
+>>>>>>> Stashed changes
 }

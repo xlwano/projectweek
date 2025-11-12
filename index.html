@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projectweek</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.google.com/icons">
+
 </head>
 
 <body>
@@ -25,9 +27,12 @@
                         <button class="codetalen button" href="codetalen.html">Codetalen</button>
                     </div>
                 </div>
-                <div>
-                    <span class="search"> <img class="search-icon" src="images/search-icon.png" alt="search icon">
-                    </span>
+                <div class="searchbar">
+                    <form id="searchForm" role="search">
+                        <input type="search" id="searchInput" name="q" placeholder="Search..."
+                            aria-label="Search through site content">
+                        <button class="searchbutton" type="submit">Search</button>
+                    </form>
                 </div>
             </div>
         </nav>
