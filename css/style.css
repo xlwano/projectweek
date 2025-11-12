@@ -177,6 +177,6 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
-    border-color: green;
-    border: green;
+    border: solid green;
+    border-radius: 5px;
 }
