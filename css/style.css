@@ -31,7 +31,7 @@ header {
 .button {
     width: 90px;
     height: 40px;
-    background-color: #98d3ea;
+    background-color: none;
     color: #524267;
     font-size: 16px;
     font-weight: bold;
@@ -130,4 +130,34 @@ footer {
     color: white;
     text-decoration: none;
     font-size: 14px;
+}
+
+.footer-button {
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    text-align: center;
+}
+
+.footer-button:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background: #6e6eb4;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+    border: 7px;
+}
+
+.footer-button:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+.footer-button:hover {
+    cursor: pointer;
 }
