@@ -1,15 +1,17 @@
+
+/*main*/
 main {
     display: flex;
     height: 160vh;
 }
-
+/*body*/
 body {
     background: #FFFFFF;
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
 }
-
+/*header*/
 header {
     display: flex;
     width: 100%;
@@ -27,7 +29,7 @@ header {
     margin-left: 20px;
     cursor: pointer;
 }
-
+/*button*/
 .button {
     width: 90px;
     height: 40px;
@@ -71,7 +73,7 @@ nav>div {
     gap: 67px;
     margin: auto 0;
 }
-
+/*search bar*/
 .search-icon {
     width: 70px;
     height: 70px;
@@ -93,7 +95,7 @@ nav>div {
     cursor: pointer;
 
 }
-
+/*footer*/
 footer {
     background-color: #4a3a6a;
     padding: 40px 20px;
