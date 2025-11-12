@@ -22,7 +22,7 @@ header {
     background-color: #98d3ea;
     justify-content: space-between;
     position: fixed;
-    margin-bottom:120px;
+    margin-bottom: 120px;
 }
 
 
@@ -102,6 +102,37 @@ nav>div {
 
 }
 
+/*main*/
+.open-days-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: start;
+    align-content: flex-start;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.open-days {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: start;
+    align-content: flex-start;
+    border: solid #f0f0f7;
+    border-radius: 5px;
+    background-color: #dfdfee;
+    margin-left: 55px;
+    width: 35%;
+    height: 38%;
+    font-size: 18px;
+    padding: 10px;
+    gap: 10px;
+}
+
+
 /*footer*/
 footer {
     background-color: #4a3a6a;
@@ -173,7 +204,7 @@ footer {
 
 
 .tekst-leer-box {
-   display: flex;
+    display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
@@ -181,43 +212,44 @@ footer {
     align-content: flex-start;
     border: solid #f0f0f7;
     border-radius: 5px;
-    background-color :#dfdfee;
-    margin-left:55px;
+    background-color: #dfdfee;
+    margin-left: 55px;
     width: 350px;
     height: 300px;
     font-size: 18px;
     padding: 10px;
 }
+
 /*searchbar*/
 form {
-  display: flex;
-  width: 300px;
-  border-radius: 5px;
-  overflow: hidden;
-  border: 1px solid #ccc;
+    display: flex;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ccc;
 }
 
 input[type="search"] {
-  flex: 1;
-  padding: 8px;
-  border: none;
-  font-size: 16px;
+    flex: 1;
+    padding: 8px;
+    border: none;
+    font-size: 16px;
 }
 
 .searchbutton {
-  background-color: #6e6eb4;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  cursor: pointer;
+    background-color: #6e6eb4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
 }
 
 .searchbutton:hover {
-  background-color: #3f2e56;
+    background-color: #3f2e56;
 }
 
 .searchbar {
-  margin-left: 20px;
-  margin-top: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
 
 }
