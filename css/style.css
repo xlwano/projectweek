@@ -1,9 +1,9 @@
-
 /*main*/
 main {
     display: flex;
     height: 160vh;
 }
+
 /*body*/
 body {
     background: #FFFFFF;
@@ -11,6 +11,7 @@ body {
     padding: 0px;
     font-family: sans-serif;
 }
+
 /*header*/
 header {
     display: flex;
@@ -29,6 +30,7 @@ header {
     margin-left: 20px;
     cursor: pointer;
 }
+
 /*button*/
 .button {
     width: 90px;
@@ -73,6 +75,7 @@ nav>div {
     gap: 67px;
     margin: auto 0;
 }
+
 /*search bar*/
 .search-icon {
     width: 70px;
@@ -95,6 +98,7 @@ nav>div {
     cursor: pointer;
 
 }
+
 /*footer*/
 footer {
     background-color: #4a3a6a;
@@ -162,4 +166,14 @@ footer {
 
 .footer-button:hover {
     cursor: pointer;
+}
+
+.tekst-leer-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    border-color: green;
 }
