@@ -172,14 +172,15 @@ footer {
 
 
 .tekst-leer-box {
-    display: flex;
+   display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
-    border: solid green;
+    border: solid #f0f0f7;
     border-radius: 5px;
+    background-color :#dfdfee;
 }
 
 form {
