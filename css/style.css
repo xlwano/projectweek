@@ -1,23 +1,24 @@
 main {
-    background-color: black;
     display: flex;
+    height: 160vh;
 }
 
 body {
     background: #FFFFFF;
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
 }
 
 header {
     display: flex;
     width: 100%;
     height: 120px;
-    background-color: #9771ca;
+    background-color:#a4a4a47f;
     justify-content: space-between;
-    border: solid #3f2e56 2px;
+    position: fixed;
 }
+
 
 .logo {
     width: 150px;
@@ -30,22 +31,39 @@ header {
 .button {
     width: 90px;
     height: 40px;
-    background-color: white;
+    background-color: #98d3ea;
+    color: #524267;
+    font-size: 16px;
+    font-weight: bold;
     margin: auto;
     padding: 10px;
     margin-top: 30px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
     border: none;
-    border-radius: 14px;
 }
 
-.button:hover {
-    background-color: #98d3ea;
-    cursor: pointer;
-    scale: 1.1;
+.button:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    background: #6e6eb4;
+    left: 45%;
+    height: 2px;
+    bottom: 0;
+    transition: all .3s;
+    opacity: 0.7;
+    border: 7px;
 }
 
-button:active {
-    background-color: #24c7fd;
+.button:hover:before {
+    width: 100%;
+    left: 0;
+}
+
+.button:hover{
+        cursor: pointer;
 }
 
 nav>div {
@@ -68,4 +86,23 @@ nav>div {
     gap: 67px;
     margin-left: 150px;
     margin-top: 10px;
+}
+
+.search-icon:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    
+}
+
+.search-icon:active {
+animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
 }
