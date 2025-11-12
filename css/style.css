@@ -21,15 +21,7 @@ header {
     background-color: #98d3ea;
     justify-content: space-between;
     position: fixed;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     margin-bottom:120px;
-=======
-
->>>>>>> Stashed changes
-=======
-
->>>>>>> Stashed changes
 }
 
 
@@ -178,8 +170,7 @@ footer {
     cursor: pointer;
 }
 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
 .tekst-leer-box {
     display: flex;
     flex-direction: column;
@@ -189,9 +180,8 @@ footer {
     align-content: flex-start;
     border: solid green;
     border-radius: 5px;
-=======
-=======
->>>>>>> Stashed changes
+}
+
 form {
   display: flex;
   width: 300px;
@@ -222,8 +212,5 @@ input[type="search"] {
 .searchbar {
   margin-left: 20px;
   margin-top: 40px;
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
 }
