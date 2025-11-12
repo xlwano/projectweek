@@ -2,6 +2,7 @@
 main {
     display: flex;
     height: 160vh;
+    padding-top: 125px;
 }
 
 /*body*/
@@ -20,6 +21,7 @@ header {
     background-color: #98d3ea;
     justify-content: space-between;
     position: fixed;
+    margin-bottom:120px;
 }
 
 
