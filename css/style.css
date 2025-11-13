@@ -1,10 +1,3 @@
-/*main*/
-main {
-    display: flex;
-    height: 160vh;
-    padding-top: 125px;
-}
-
 /*body*/
 body {
     background: #FFFFFF;
@@ -12,6 +5,66 @@ body {
     padding: 0px;
     font-family: sans-serif;
 
+}
+
+
+/*main codetalen*/
+main {
+    display: flex;
+    height: 160vh;
+    padding-top: 125px;
+}
+ 
+.marco {
+    width: 290px;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    float: right;
+    margin-left: 18px;
+    margin-right: 500px;
+    margin-bottom: 12px;
+}
+ 
+.tekst-leer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+ 
+.tekst-leer-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: start;
+    align-content: flex-start;
+    border: solid #f0f0f7;
+    border-radius: 5px;
+    background-color: #dfdfee;
+    margin-left: 55px;
+    width: 350px;
+    height: 300px;
+    font-size: 18px;
+    padding: 10px;
+    gap: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+ 
+.tekst-leer-box h1 {
+    margin: 0;
+    font-size: 24px;
+}
+ 
+.tekst-leer-box p {
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1.5;
 }
 
 /*header*/
@@ -102,7 +155,7 @@ nav>div {
 
 }
 
-/*main*/
+/*main contacts*/
 .open-days-container {
     display: flex;
     flex-direction: row;
