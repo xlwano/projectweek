@@ -7,6 +7,7 @@ body {
 
 }
 
+
 /*searchbar*/
 form {
     display: flex;
@@ -131,7 +132,25 @@ main {
     box-sizing: border-box;
     overflow: hidden;
 }
-
+.tekst-learn-box-index {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: start;
+    align-content: flex-start;
+    border: solid #f0f0f7;
+    border-radius: 1%;
+    background-color: #dfdfee;
+    margin-left: 7%;
+    width: 35%;
+    height: 50%;
+    font-size: 100%;
+    padding: 1%;
+    gap: 1%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
 .text-learn-box h1 {
     margin: 0;
     font-size: 24px;
@@ -266,30 +285,12 @@ nav>div {
 }
 
 
-
-
-.tekst-leer-box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: start;
-    align-content: flex-start;
-    border: solid #f0f0f7;
-    border-radius: 5px;
-    background-color: #dfdfee;
-    margin-left: 55px;
-    width: 350px;
-    height: 300px;
-    font-size: 18px;
-    padding: 10px;
-}
-
 /*footer*/
 footer {
     background-color: #4a3a6a;
     margin-top: 10%;
     padding: 10% 0% 0%;
+    margin-top: 22%;
 }
 
 .footer-container {
@@ -356,23 +357,6 @@ footer {
 }
 
 
-.tekst-leer-box {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: start;
-    align-content: flex-start;
-    border: solid #f0f0f7;
-    border-radius: 5px;
-    background-color: #dfdfee;
-    margin-left: 55px;
-    width: 350px;
-    height: 300px;
-    font-size: 18px;
-    padding: 10px;
-}
-
 /*searchbar*/
 form {
     display: flex;
@@ -422,6 +406,7 @@ input[type="search"] {
     margin-top: 290px;
     margin-left: -240px;
 }
+
 .aboutpage-2 {
     display: flex;
     flex-direction: column;
@@ -437,23 +422,18 @@ input[type="search"] {
     margin-top: 690px;
     margin-left: -440px;
 }
- 
+
 .about-image-mark {
     display: flex;
-   margin-left: 10px;
+    margin-left: 10px;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
     align-content: center;
 }
- 
-.about-image-mark img {
-    width: 250px;
-    height: 250px;
-    
-}
 
-aboutpage {
+
+.aboutpage {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -468,7 +448,7 @@ aboutpage {
     margin-top: 290px;
     margin-left: -240px;
 }
- 
+
 .aboutpage-2 {
     display: flex;
     flex-direction: column;
@@ -487,15 +467,15 @@ aboutpage {
     margin-top: 690px;
     margin-left: -440px;
 }
- 
+
 .aboutpage2 link {
     text-decoration: none;
     color: #524267;
     font-weight: bold;
     flex-direction: row;
- 
+
 }
- 
+
 .about-image-mark {
     display: flex;
     margin-left: 170px;
@@ -504,13 +484,13 @@ aboutpage {
     align-items: flex-start;
     align-content: center;
 }
- 
+
 .about-image-mark img {
     width: 100%;
     height: 20%;
- 
+
 }
- 
+
 .aboutpage-3 {
     display: flex;
     flex-direction: column;
@@ -526,3 +506,5 @@ aboutpage {
     margin-top: 1100px;
     margin-left: -440px;
 }
+
+/*main about*/
