@@ -93,7 +93,8 @@ nav>div {
     display: flex;
     gap: 67px;
     margin-left: 150px;
-    margin-top: 10px;
+    margin-top: 50px;
+    
 }
 
 .search-icon:hover {
@@ -252,4 +253,8 @@ input[type="search"] {
     margin-left: 20px;
     margin-top: 40px;
 
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
