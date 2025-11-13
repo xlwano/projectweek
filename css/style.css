@@ -26,26 +26,21 @@ main {
     margin-right: 340px;
     margin-bottom: 12px;
 }
-<<<<<<< HEAD
+
  
 .text-lear-box-container {
-=======
 
-.tekst-leer-container {
->>>>>>> a6588415949cdc19cca861eaed3003caf2390f81
+
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 100%;
     height: 100%;
 }
-<<<<<<< HEAD
  
-.text-lear-box {
-=======
+
 
 .tekst-leer-box {
->>>>>>> a6588415949cdc19cca861eaed3003caf2390f81
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -64,15 +59,13 @@ main {
     box-sizing: border-box;
     overflow: hidden;
 }
-<<<<<<< HEAD
  
 .text-lear-box h1 {
     margin: 0;
     font-size: 24px;
 }
  
-.text-lear-box p {
-=======
+
 
 .tekst-leer-box h1 {
     margin: 0;
@@ -80,7 +73,6 @@ main {
 }
 
 .tekst-leer-box p {
->>>>>>> a6588415949cdc19cca861eaed3003caf2390f81
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
