@@ -27,7 +27,7 @@ main {
     margin-bottom: 12px;
 }
  
-.tekst-leer-container {
+.text-lear-box-container {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -35,7 +35,7 @@ main {
     height: 100%;
 }
  
-.tekst-leer-box {
+.text-lear-box {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -55,12 +55,12 @@ main {
     overflow: hidden;
 }
  
-.tekst-leer-box h1 {
+.text-lear-box h1 {
     margin: 0;
     font-size: 24px;
 }
  
-.tekst-leer-box p {
+.text-lear-box p {
     margin: 0;
     overflow: hidden;
     text-overflow: ellipsis;
