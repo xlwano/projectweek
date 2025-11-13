@@ -40,7 +40,7 @@ main {
  
 
 
-.tekst-leer-box {
+.tekst-learn-box {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -332,12 +332,12 @@ input[type="search"] {
     font-size: 13px;
     padding: 10px;
     margin-top: 290px;
-    margin-left: -250px;
+    margin-left: -240px;
 }
  
 .about-image-mark {
     display: flex;
-   
+   margin-left: 10px;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-start;
@@ -347,4 +347,5 @@ input[type="search"] {
 .about-image-mark img {
     width: 250px;
     height: 250px;
+    
 }
