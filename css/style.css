@@ -322,16 +322,29 @@ input[type="search"] {
 .aboutpage {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: stretch;
+    justify-content: center;
     border: solid #f0f0f7;
     border-radius: 5px;
     background-color: #dfdfee;
-    margin-left: 10%;
-    width: 350px;
-    height: 300px;
+    margin-right: 150px;
+    width: 260px;
+    height: 320px;
     font-size: 13px;
-    padding: 12px;
+    padding: 10px;
+    margin-top: 290px;
+    margin-left: -250px;
+}
+ 
+.about-image-mark {
+    display: flex;
+   
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+ 
+.about-image-mark img {
+    width: 250px;
+    height: 250px;
 }
