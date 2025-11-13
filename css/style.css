@@ -244,7 +244,7 @@ nav>div {
     align-content: flex-start;
     gap: 1%;
     margin-left: 6%;
-    maargin-top: 5%;
+    margin-top: 5%;
 }
 
 .open-days {
@@ -353,4 +353,102 @@ footer {
 
 .footer-button:hover {
     cursor: pointer;
+}
+
+
+.tekst-leer-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: start;
+    align-content: flex-start;
+    border: solid #f0f0f7;
+    border-radius: 5px;
+    background-color: #dfdfee;
+    margin-left: 55px;
+    width: 350px;
+    height: 300px;
+    font-size: 18px;
+    padding: 10px;
+}
+
+/*searchbar*/
+form {
+    display: flex;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
+input[type="search"] {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.searchbutton {
+    background-color: #6e6eb4;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.searchbutton:hover {
+    background-color: #3f2e56;
+}
+
+.searchbar {
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+
+.aboutpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid #f0f0f7;
+    border-radius: 5px;
+    background-color: #dfdfee;
+    margin-right: 150px;
+    width: 260px;
+    height: 320px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 290px;
+    margin-left: -240px;
+}
+.aboutpage-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid #f0f0f7;
+    border-radius: 5px;
+    background-color: #dfdfee;
+    margin-right: 150px;
+    width: 260px;
+    height: 320px;
+    font-size: 13px;
+    padding: 10px;
+    margin-top: 690px;
+    margin-left: -440px;
+}
+ 
+.about-image-mark {
+    display: flex;
+   margin-left: 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+}
+ 
+.about-image-mark img {
+    width: 250px;
+    height: 250px;
+    
 }
