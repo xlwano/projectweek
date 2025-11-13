@@ -7,7 +7,6 @@ form.addEventListener('submit', function(event) {
   const query = input.value.trim();
   console.log('Search query:', query);
   if (query) {
-    // For example, search on Google for the query:
     const url = 'https://www.google.com/search?q=' + encodeURIComponent(query);
     window.open(url, '_blank');
   }
